@@ -1,0 +1,13 @@
+arrowParens: avoid
+bracketSpacing: true
+endOfLine: auto
+printWidth: 80
+singleQuote: true
+tabWidth: 2
+trailingComma: all
+maxWidth: 80
+overrides:
+  - files: "*.sol"
+    options:
+      tabWidth: 2
+      singleQuote: false
